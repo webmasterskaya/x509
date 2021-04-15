@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X501\ASN1\AttributeType;
-use Sop\X501\ASN1\AttributeValue\AttributeValue;
-use Sop\X501\MatchingRule\MatchingRule;
+use Webmasterskaya\X501\ASN1\AttributeType;
+use Webmasterskaya\X501\ASN1\AttributeValue\AttributeValue;
+use Webmasterskaya\X501\MatchingRule\MatchingRule;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\RoleAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attributes;
 use Webmasterskaya\X509\GeneralName\DirectoryName;

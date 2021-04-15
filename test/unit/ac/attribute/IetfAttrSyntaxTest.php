@@ -3,7 +3,7 @@
 declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
-use Sop\X501\MatchingRule\MatchingRule;
+use Webmasterskaya\X501\MatchingRule\MatchingRule;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\GroupAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\IetfAttrSyntax;
 

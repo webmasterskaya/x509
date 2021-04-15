@@ -10,7 +10,7 @@ use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
 use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
 use Webmasterskaya\X509\Certificate\Extension\Extension;
 use Webmasterskaya\X509\Certificate\Extensions;

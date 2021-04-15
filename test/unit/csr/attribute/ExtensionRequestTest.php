@@ -4,8 +4,8 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X501\ASN1\AttributeValue\AttributeValue;
-use Sop\X501\MatchingRule\MatchingRule;
+use Webmasterskaya\X501\ASN1\AttributeValue\AttributeValue;
+use Webmasterskaya\X501\MatchingRule\MatchingRule;
 use Webmasterskaya\X509\Certificate\Extensions;
 use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
 

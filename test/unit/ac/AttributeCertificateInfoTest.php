@@ -10,7 +10,7 @@ use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
 use Webmasterskaya\X509\AttributeCertificate\AttCertValidityPeriod;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\RoleAttributeValue;

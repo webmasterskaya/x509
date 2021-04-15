@@ -5,7 +5,7 @@ declare(strict_types = 1);
 namespace Webmasterskaya\X509\Certificate\Extension\DistributionPoint;
 
 use Sop\ASN1\Element;
-use Sop\X501\ASN1\RDN;
+use Webmasterskaya\X501\ASN1\RDN;
 
 /**
  * Implements 'nameRelativeToCRLIssuer' ASN.1 CHOICE type of *DistributionPointName*

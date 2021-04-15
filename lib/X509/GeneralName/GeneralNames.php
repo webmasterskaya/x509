@@ -6,7 +6,7 @@ namespace Webmasterskaya\X509\GeneralName;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 
 /**
  * Implements *GeneralNames* ASN.1 type.

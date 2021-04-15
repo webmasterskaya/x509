@@ -8,7 +8,7 @@ use Sop\ASN1\Type\Primitive\Integer;
 use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Extension\SubjectAlternativeNameExtension;
 use Webmasterskaya\X509\Certificate\Extensions;
 use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;

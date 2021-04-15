@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\Certificate\TBSCertificate;

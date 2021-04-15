@@ -9,7 +9,7 @@ use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
 use Webmasterskaya\X509\Certificate\Extension\UnknownExtension;

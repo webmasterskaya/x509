@@ -7,7 +7,7 @@ namespace Webmasterskaya\X509\GeneralName;
 use Sop\ASN1\Type\Tagged\ExplicitlyTaggedType;
 use Sop\ASN1\Type\TaggedType;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 
 /**
  * Implements *directoryName* CHOICE type of *GeneralName*.

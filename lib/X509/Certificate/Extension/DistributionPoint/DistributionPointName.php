@@ -7,7 +7,7 @@ namespace Webmasterskaya\X509\Certificate\Extension\DistributionPoint;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X501\ASN1\RDN;
+use Webmasterskaya\X501\ASN1\RDN;
 use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**

@@ -11,7 +11,7 @@ use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Webmasterskaya\CryptoTypes\Signature\Signature;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\Certificate\TBSCertificate;
 use Webmasterskaya\X509\Certificate\Validity;

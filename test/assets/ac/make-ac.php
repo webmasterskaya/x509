@@ -5,7 +5,7 @@ declare(strict_types = 1);
 use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\Attribute;
 use Webmasterskaya\X509\AttributeCertificate\AttCertValidityPeriod;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AuthenticationInfoAttributeValue;

@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 namespace Webmasterskaya\X509\AttributeCertificate;
 
-use Sop\X501\ASN1\Attribute;
-use Sop\X501\ASN1\AttributeType;
-use Sop\X501\ASN1\Collection\SequenceOfAttributes;
+use Webmasterskaya\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\AttributeType;
+use Webmasterskaya\X501\ASN1\Collection\SequenceOfAttributes;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AuthenticationInfoAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\ChargingIdentityAttributeValue;

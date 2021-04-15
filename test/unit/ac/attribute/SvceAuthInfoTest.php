@@ -3,7 +3,7 @@
 declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
-use Sop\X501\MatchingRule\MatchingRule;
+use Webmasterskaya\X501\MatchingRule\MatchingRule;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\SvceAuthInfo;
 use Webmasterskaya\X509\GeneralName\DirectoryName;

@@ -7,7 +7,7 @@ namespace Webmasterskaya\X509\AttributeCertificate;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\GeneralName\GeneralNames;
 

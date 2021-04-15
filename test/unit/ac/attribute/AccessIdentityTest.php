@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X501\ASN1\AttributeValue\AttributeValue;
+use Webmasterskaya\X501\ASN1\AttributeValue\AttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attributes;
 use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;

@@ -4,8 +4,8 @@ declare(strict_types = 1);
 
 namespace Webmasterskaya\X509\CertificationRequest;
 
-use Sop\X501\ASN1\Attribute;
-use Sop\X501\ASN1\Collection\SetOfAttributes;
+use Webmasterskaya\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\Collection\SetOfAttributes;
 use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
 
 /**

@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X501\ASN1\AttributeTypeAndValue;
-use Sop\X501\ASN1\AttributeValue\CommonNameValue;
-use Sop\X501\ASN1\RDN;
+use Webmasterskaya\X501\ASN1\AttributeTypeAndValue;
+use Webmasterskaya\X501\ASN1\AttributeValue\CommonNameValue;
+use Webmasterskaya\X501\ASN1\RDN;
 use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
 use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPointName;
 use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\FullName;

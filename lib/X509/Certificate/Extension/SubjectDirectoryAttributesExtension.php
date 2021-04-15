@@ -6,8 +6,8 @@ namespace Webmasterskaya\X509\Certificate\Extension;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X501\ASN1\Attribute;
-use Sop\X501\ASN1\Collection\SequenceOfAttributes;
+use Webmasterskaya\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\Collection\SequenceOfAttributes;
 
 /**
  * Implements 'Subject Directory Attributes' certificate extension.

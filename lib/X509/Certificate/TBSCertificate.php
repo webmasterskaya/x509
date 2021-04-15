@@ -14,7 +14,7 @@ use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
 use Webmasterskaya\X509\Certificate\Extension\Extension;
 use Webmasterskaya\X509\Certificate\Extension\SubjectKeyIdentifierExtension;

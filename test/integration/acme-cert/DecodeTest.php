@@ -9,7 +9,7 @@ use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIde
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
 use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
 use Webmasterskaya\CryptoTypes\Signature\Signature;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\Certificate\Extensions;
 use Webmasterskaya\X509\Certificate\TBSCertificate;

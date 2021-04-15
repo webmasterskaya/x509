@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Tagged\ExplicitTagging;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\GeneralName\DirectoryName;
 use Webmasterskaya\X509\GeneralName\GeneralName;
 

@@ -8,7 +8,7 @@ use Sop\CryptoEncoding\PEM;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Asymmetric\RSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\TBSCertificate;
 use Webmasterskaya\X509\Certificate\Validity;
 use Webmasterskaya\X509\CertificationPath\CertificationPath;

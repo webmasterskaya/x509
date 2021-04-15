@@ -10,7 +10,7 @@ use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Webmasterskaya\CryptoTypes\Signature\Signature;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\CertificationRequest\CertificationRequest;
 use Webmasterskaya\X509\CertificationRequest\CertificationRequestInfo;
 

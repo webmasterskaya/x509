@@ -8,9 +8,9 @@ use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X501\ASN1\AttributeValue\AttributeValue;
-use Sop\X501\MatchingRule\BinaryMatch;
-use Sop\X501\MatchingRule\MatchingRule;
+use Webmasterskaya\X501\ASN1\AttributeValue\AttributeValue;
+use Webmasterskaya\X501\MatchingRule\BinaryMatch;
+use Webmasterskaya\X501\MatchingRule\MatchingRule;
 use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**

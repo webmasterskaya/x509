@@ -12,8 +12,8 @@ use Webmasterskaya\CryptoBridge\Crypto;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X501\ASN1\Attribute;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Extensions;
 use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
 

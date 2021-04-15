@@ -7,7 +7,7 @@ use Sop\CryptoEncoding\PEM;
 use Sop\CryptoEncoding\PEMBundle;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA256AlgorithmIdentifier;
 use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
 use Webmasterskaya\X509\AttributeCertificate\AttCertValidityPeriod;
 use Webmasterskaya\X509\AttributeCertificate\AttributeCertificateInfo;

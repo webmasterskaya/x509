@@ -7,7 +7,7 @@ namespace Webmasterskaya\X509\CertificationPath\PathValidation;
 use Sop\ASN1\Element;
 use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
 use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\Certificate\Certificate;
 use Webmasterskaya\X509\CertificationPath\Policy\PolicyNode;
 use Webmasterskaya\X509\CertificationPath\Policy\PolicyTree;

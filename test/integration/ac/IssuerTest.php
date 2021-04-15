@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\X501\ASN1\Name;
+use Webmasterskaya\X501\ASN1\Name;
 use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
 use Webmasterskaya\X509\Certificate\Certificate;
 

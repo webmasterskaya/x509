@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-use Sop\X501\ASN1\AttributeType;
+use Webmasterskaya\X501\ASN1\AttributeType;
 use Webmasterskaya\X509\Certificate\Extension\Extension;
 use Webmasterskaya\X509\Certificate\Extension\SubjectDirectoryAttributesExtension;
 

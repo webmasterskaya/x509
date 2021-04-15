@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X501\ASN1\Attribute;
-use Sop\X501\ASN1\AttributeType;
-use Sop\X501\ASN1\AttributeValue\DescriptionValue;
+use Webmasterskaya\X501\ASN1\Attribute;
+use Webmasterskaya\X501\ASN1\AttributeType;
+use Webmasterskaya\X501\ASN1\AttributeValue\DescriptionValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\GroupAttributeValue;
 use Webmasterskaya\X509\AttributeCertificate\Attribute\IetfAttrValue;
