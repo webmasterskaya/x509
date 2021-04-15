@@ -30,8 +30,8 @@
         "ext-gmp": "*",
         "sop/asn1": "^4.0.0",
         "sop/x501": "^0.6.1",
-        "webmasterskaya/crypto-types": "^0.3.1",
-        "webmasterskaya/crypto-bridge": "^0.3.1",
+        "webmasterskaya/crypto-types": "dev-master",
+        "webmasterskaya/crypto-bridge": "dev-master",
         "sop/crypto-encoding": "^0.3.0"
     },
     "require-dev": {
