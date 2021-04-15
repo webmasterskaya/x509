@@ -2,8 +2,8 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\KeyUsageExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\KeyUsageExtension;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 

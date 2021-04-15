@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Validation;
+namespace Webmasterskaya\X509\AttributeCertificate\Validation;
 
-use Sop\X509\Certificate\Extension\Target\Target;
-use Sop\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\Certificate\Extension\Target\Target;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
 
 /**
  * Provides configuration context for the attribute certificate validation.

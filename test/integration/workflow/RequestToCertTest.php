@@ -4,23 +4,23 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA1AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA512WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA1AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA512WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\BasicConstraintsExtension;
-use Sop\X509\Certificate\Extension\KeyUsageExtension;
-use Sop\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\Certificate\Validity;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
-use Sop\X509\CertificationPath\PathValidation\PathValidationResult;
-use Sop\X509\CertificationRequest\CertificationRequest;
-use Sop\X509\CertificationRequest\CertificationRequestInfo;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\KeyUsageExtension;
+use Webmasterskaya\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\Certificate\Validity;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationResult;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequest;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequestInfo;
 
 /**
  * @group workflow

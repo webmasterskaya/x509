@@ -4,16 +4,16 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\AttributeCertificate\IssuerSerial;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\Certificate\UniqueIdentifier;
-use Sop\X509\Certificate\Validity;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\Certificate\UniqueIdentifier;
+use Webmasterskaya\X509\Certificate\Validity;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group ac

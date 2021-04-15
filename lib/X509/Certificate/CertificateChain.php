@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate;
+namespace Webmasterskaya\X509\Certificate;
 
 use Sop\CryptoEncoding\PEM;
 use Sop\CryptoEncoding\PEMBundle;
-use Sop\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
 
 /**
  * Ordered list of certificates from the end-entity to the trust anchor.

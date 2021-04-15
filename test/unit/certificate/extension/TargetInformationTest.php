@@ -4,14 +4,14 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\Target\Target;
-use Sop\X509\Certificate\Extension\Target\TargetGroup;
-use Sop\X509\Certificate\Extension\Target\TargetName;
-use Sop\X509\Certificate\Extension\Target\Targets;
-use Sop\X509\Certificate\Extension\TargetInformationExtension;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\DNSName;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\Target\Target;
+use Webmasterskaya\X509\Certificate\Extension\Target\TargetGroup;
+use Webmasterskaya\X509\Certificate\Extension\Target\TargetName;
+use Webmasterskaya\X509\Certificate\Extension\Target\Targets;
+use Webmasterskaya\X509\Certificate\Extension\TargetInformationExtension;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\DNSName;
 
 /**
  * @group certificate

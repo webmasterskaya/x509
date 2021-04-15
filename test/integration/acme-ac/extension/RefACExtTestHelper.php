@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\AttributeCertificate\AttributeCertificate;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificate;
 
 abstract class RefACExtTestHelper extends TestCase
 {

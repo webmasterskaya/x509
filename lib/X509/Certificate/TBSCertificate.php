@@ -2,23 +2,23 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate;
+namespace Webmasterskaya\X509\Certificate;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\ASN1\Type\Tagged\ExplicitlyTaggedType;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\CryptoBridge\Crypto;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\CryptoTypes\Asymmetric\PublicKeyInfo;
+use Webmasterskaya\CryptoBridge\Crypto;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
-use Sop\X509\CertificationRequest\CertificationRequest;
+use Webmasterskaya\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequest;
 
 /**
  * Implements *TBSCertificate* ASN.1 type.

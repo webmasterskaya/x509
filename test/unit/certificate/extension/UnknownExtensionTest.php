@@ -5,7 +5,7 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Primitive\NullType;
-use Sop\X509\Certificate\Extension\UnknownExtension;
+use Webmasterskaya\X509\Certificate\Extension\UnknownExtension;
 
 /**
  * @group certificate
@@ -16,7 +16,7 @@ use Sop\X509\Certificate\Extension\UnknownExtension;
 class UnknownExtensionTest extends TestCase
 {
     /**
-     * @return \Sop\X509\Certificate\Extension\UnknownExtension
+     * @return \Webmasterskaya\X509\Certificate\Extension\UnknownExtension
      */
     public function testCreateWithDER()
     {
@@ -37,7 +37,7 @@ class UnknownExtensionTest extends TestCase
     }
 
     /**
-     * @return \Sop\X509\Certificate\Extension\UnknownExtension
+     * @return \Webmasterskaya\X509\Certificate\Extension\UnknownExtension
      */
     public function testCreateFromString()
     {

@@ -8,11 +8,11 @@
 declare(strict_types = 1);
 
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Hash\SHA256AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SignatureAlgorithmIdentifierFactory;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Hash\SHA256AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SignatureAlgorithmIdentifierFactory;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\CertificationRequest\CertificationRequestInfo;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequestInfo;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

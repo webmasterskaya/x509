@@ -2,17 +2,17 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Validation;
+namespace Webmasterskaya\X509\AttributeCertificate\Validation;
 
-use Sop\CryptoBridge\Crypto;
-use Sop\X509\AttributeCertificate\AttributeCertificate;
-use Sop\X509\AttributeCertificate\Validation\Exception\ACValidationException;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\Target\Targets;
-use Sop\X509\Certificate\Extension\TargetInformationExtension;
-use Sop\X509\CertificationPath\Exception\PathValidationException;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\CryptoBridge\Crypto;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificate;
+use Webmasterskaya\X509\AttributeCertificate\Validation\Exception\ACValidationException;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\Target\Targets;
+use Webmasterskaya\X509\Certificate\Extension\TargetInformationExtension;
+use Webmasterskaya\X509\CertificationPath\Exception\PathValidationException;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
 
 /**
  * Implements attribute certificate validation conforming to RFC 5755.

@@ -3,14 +3,14 @@
 declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
-use Sop\CryptoBridge\Crypto;
+use Webmasterskaya\CryptoBridge\Crypto;
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\Exception\PathValidationException;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
-use Sop\X509\CertificationPath\PathValidation\PathValidationResult;
-use Sop\X509\CertificationPath\PathValidation\PathValidator;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\Exception\PathValidationException;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationResult;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidator;
 
 /**
  * @group certification-path

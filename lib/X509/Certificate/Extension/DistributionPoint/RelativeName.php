@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\DistributionPoint;
+namespace Webmasterskaya\X509\Certificate\Extension\DistributionPoint;
 
 use Sop\ASN1\Element;
 use Sop\X501\ASN1\RDN;

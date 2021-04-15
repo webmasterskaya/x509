@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\Target;
+namespace Webmasterskaya\X509\Certificate\Extension\Target;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;

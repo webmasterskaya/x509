@@ -4,8 +4,8 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\AAControlsExtension;
-use Sop\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\AAControlsExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
 
 /**
  * @group certificate

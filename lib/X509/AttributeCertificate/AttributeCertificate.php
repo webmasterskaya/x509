@@ -2,17 +2,17 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate;
+namespace Webmasterskaya\X509\AttributeCertificate;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\CryptoBridge\Crypto;
+use Webmasterskaya\CryptoBridge\Crypto;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\CryptoTypes\Signature\Signature;
-use Sop\X509\Certificate\Certificate;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
+use Webmasterskaya\CryptoTypes\Signature\Signature;
+use Webmasterskaya\X509\Certificate\Certificate;
 
 /**
  * Implements *AttributeCertificate* ASN.1 type.

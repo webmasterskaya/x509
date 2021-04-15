@@ -5,10 +5,10 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Tagged\ExplicitTagging;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X509\Certificate\Extension\Target\Target;
-use Sop\X509\Certificate\Extension\Target\TargetName;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\Certificate\Extension\Target\Target;
+use Webmasterskaya\X509\Certificate\Extension\Target\TargetName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group certificate

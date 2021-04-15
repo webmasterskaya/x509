@@ -7,8 +7,8 @@ use Sop\ASN1\Element;
 use Sop\ASN1\Type\Tagged\ExplicitTagging;
 use Sop\ASN1\Type\TaggedType;
 use Sop\X501\ASN1\Name;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**
  * @group general-name

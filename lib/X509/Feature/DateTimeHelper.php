@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Feature;
+namespace Webmasterskaya\X509\Feature;
 
 /**
  * Helper trait for classes employing date and time handling.

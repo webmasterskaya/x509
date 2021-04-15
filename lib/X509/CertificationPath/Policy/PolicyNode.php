@@ -2,10 +2,10 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\Policy;
+namespace Webmasterskaya\X509\CertificationPath\Policy;
 
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
 
 /**
  * Policy node class for certification path validation.

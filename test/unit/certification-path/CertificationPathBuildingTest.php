@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\CertificateBundle;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\Exception\PathBuildingException;
-use Sop\X509\CertificationPath\PathBuilding\CertificationPathBuilder;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\CertificateBundle;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\Exception\PathBuildingException;
+use Webmasterskaya\X509\CertificationPath\PathBuilding\CertificationPathBuilder;
 
 /**
  * @group certification-path

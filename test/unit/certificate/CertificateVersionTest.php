@@ -4,14 +4,14 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Extension\KeyUsageExtension;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\Certificate\UniqueIdentifier;
-use Sop\X509\Certificate\Validity;
+use Webmasterskaya\X509\Certificate\Extension\KeyUsageExtension;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\Certificate\UniqueIdentifier;
+use Webmasterskaya\X509\Certificate\Validity;
 
 /**
  * @group certificate

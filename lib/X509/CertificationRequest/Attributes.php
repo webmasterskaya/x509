@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationRequest;
+namespace Webmasterskaya\X509\CertificationRequest;
 
 use Sop\X501\ASN1\Attribute;
 use Sop\X501\ASN1\Collection\SetOfAttributes;
-use Sop\X509\CertificationRequest\Attribute\ExtensionRequestValue;
+use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
 
 /**
  * Implements *Attributes* ASN.1 type of *CertificationRequestInfo*.

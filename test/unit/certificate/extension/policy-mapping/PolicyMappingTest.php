@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\PolicyMappings\PolicyMapping;
+use Webmasterskaya\X509\Certificate\Extension\PolicyMappings\PolicyMapping;
 
 /**
  * @group certificate

@@ -6,11 +6,11 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\ObjectIdentifier;
 use Sop\ASN1\Type\Primitive\OctetString;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\PolicyMappings\PolicyMapping;
-use Sop\X509\Certificate\Extension\PolicyMappingsExtension;
-use Sop\X509\Certificate\Extensions;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\PolicyMappings\PolicyMapping;
+use Webmasterskaya\X509\Certificate\Extension\PolicyMappingsExtension;
+use Webmasterskaya\X509\Certificate\Extensions;
 
 /**
  * @group certificate

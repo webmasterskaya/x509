@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\Target\Target;
-use Sop\X509\Certificate\Extension\TargetInformationExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\Target\Target;
+use Webmasterskaya\X509\Certificate\Extension\TargetInformationExtension;
 
 require_once __DIR__ . '/RefACExtTestHelper.php';
 

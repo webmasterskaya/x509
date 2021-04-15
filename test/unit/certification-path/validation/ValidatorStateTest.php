@@ -5,9 +5,9 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\NullType;
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
-use Sop\X509\CertificationPath\PathValidation\ValidatorState;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\CertificationPath\PathValidation\ValidatorState;
 
 /**
  * @group certification-path

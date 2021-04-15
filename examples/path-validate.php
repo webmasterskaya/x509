@@ -8,9 +8,9 @@
 declare(strict_types = 1);
 
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

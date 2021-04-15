@@ -6,8 +6,8 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Tagged\ImplicitTagging;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X509\GeneralName\DNSName;
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\DNSName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**
  * @group general-name

@@ -3,9 +3,9 @@
 declare(strict_types = 1);
 
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
-use Sop\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\CryptoTypes\Asymmetric\RSA\RSAPrivateKey;
+use Webmasterskaya\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Attribute;
+namespace Webmasterskaya\X509\AttributeCertificate\Attribute;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
@@ -13,9 +13,9 @@ use Sop\X501\ASN1\AttributeType;
 use Sop\X501\ASN1\AttributeValue\AttributeValue;
 use Sop\X501\MatchingRule\BinaryMatch;
 use Sop\X501\MatchingRule\MatchingRule;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\GeneralNames;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * Implements value for 'Role' attribute.

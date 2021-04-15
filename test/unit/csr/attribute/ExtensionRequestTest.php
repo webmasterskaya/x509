@@ -6,8 +6,8 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\X501\ASN1\AttributeValue\AttributeValue;
 use Sop\X501\MatchingRule\MatchingRule;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\CertificationRequest\Attribute\ExtensionRequestValue;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
 
 /**
  * @group csr

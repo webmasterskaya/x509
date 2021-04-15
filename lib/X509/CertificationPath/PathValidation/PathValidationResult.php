@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\PathValidation;
+namespace Webmasterskaya\X509\CertificationPath\PathValidation;
 
 use Sop\ASN1\Element;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
-use Sop\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\CertificationPath\Policy\PolicyTree;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\AlgorithmIdentifierType;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\CertificationPath\Policy\PolicyTree;
 
 /**
  * Result of the path validation process.

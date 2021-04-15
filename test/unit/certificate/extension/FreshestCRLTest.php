@@ -4,14 +4,14 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
-use Sop\X509\Certificate\Extension\DistributionPoint\FullName;
-use Sop\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\FreshestCRLExtension;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\FullName;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\FreshestCRLExtension;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group certificate

@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\NameConstraints;
+namespace Webmasterskaya\X509\Certificate\Extension\NameConstraints;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;

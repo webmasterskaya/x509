@@ -5,10 +5,10 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
-use Sop\X509\AttributeCertificate\AttributeCertificate;
-use Sop\X509\AttributeCertificate\AttributeCertificateInfo;
-use Sop\X509\Certificate\Certificate;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificate;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificateInfo;
+use Webmasterskaya\X509\Certificate\Certificate;
 
 /**
  * Decodes reference attribute certificate acme-ac.pem.

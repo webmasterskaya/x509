@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\CertificateChain;
-use Sop\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\CertificateChain;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
 
 /**
  * @group certificate

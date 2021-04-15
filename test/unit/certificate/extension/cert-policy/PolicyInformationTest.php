@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\CertificatePolicy\CPSQualifier;
-use Sop\X509\Certificate\Extension\CertificatePolicy\DisplayText;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
-use Sop\X509\Certificate\Extension\CertificatePolicy\UserNoticeQualifier;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\CPSQualifier;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\DisplayText;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\UserNoticeQualifier;
 
 /**
  * @group certificate

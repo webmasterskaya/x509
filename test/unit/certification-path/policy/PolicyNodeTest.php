@@ -3,7 +3,7 @@
 declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
-use Sop\X509\CertificationPath\Policy\PolicyNode;
+use Webmasterskaya\X509\CertificationPath\Policy\PolicyNode;
 
 /**
  * @group certification-path

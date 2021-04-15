@@ -10,7 +10,7 @@ use Sop\ASN1\Type\Primitive\IA5String;
 use Sop\ASN1\Type\Primitive\UTF8String;
 use Sop\ASN1\Type\Primitive\VisibleString;
 use Sop\ASN1\Type\StringType;
-use Sop\X509\Certificate\Extension\CertificatePolicy\DisplayText;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\DisplayText;
 
 /**
  * @group certificate

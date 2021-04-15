@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Attribute;
+namespace Webmasterskaya\X509\AttributeCertificate\Attribute;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
@@ -11,7 +11,7 @@ use Sop\ASN1\Type\UnspecifiedType;
 use Sop\X501\ASN1\AttributeValue\AttributeValue;
 use Sop\X501\MatchingRule\BinaryMatch;
 use Sop\X501\MatchingRule\MatchingRule;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * Base class implementing *IetfAttrSyntax* ASN.1 type used by

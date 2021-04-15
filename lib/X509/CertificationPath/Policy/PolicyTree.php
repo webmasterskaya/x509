@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\Policy;
+namespace Webmasterskaya\X509\CertificationPath\Policy;
 
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\CertificationPath\PathValidation\ValidatorState;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\CertificationPath\PathValidation\ValidatorState;
 
 class PolicyTree
 {

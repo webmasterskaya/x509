@@ -7,13 +7,13 @@ use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\X501\ASN1\AttributeTypeAndValue;
 use Sop\X501\ASN1\AttributeValue\CommonNameValue;
 use Sop\X501\ASN1\RDN;
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPointName;
-use Sop\X509\Certificate\Extension\DistributionPoint\FullName;
-use Sop\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
-use Sop\X509\Certificate\Extension\DistributionPoint\RelativeName;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPointName;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\FullName;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\RelativeName;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group certificate

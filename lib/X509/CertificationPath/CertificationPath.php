@@ -2,16 +2,16 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath;
+namespace Webmasterskaya\X509\CertificationPath;
 
-use Sop\CryptoBridge\Crypto;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\CertificateBundle;
-use Sop\X509\Certificate\CertificateChain;
-use Sop\X509\CertificationPath\PathBuilding\CertificationPathBuilder;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
-use Sop\X509\CertificationPath\PathValidation\PathValidationResult;
-use Sop\X509\CertificationPath\PathValidation\PathValidator;
+use Webmasterskaya\CryptoBridge\Crypto;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\CertificateBundle;
+use Webmasterskaya\X509\Certificate\CertificateChain;
+use Webmasterskaya\X509\CertificationPath\PathBuilding\CertificationPathBuilder;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationResult;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidator;
 
 /**
  * Implements certification path structure.

@@ -7,12 +7,12 @@ use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\X501\ASN1\Attribute;
 use Sop\X501\ASN1\AttributeType;
 use Sop\X501\ASN1\AttributeValue\DescriptionValue;
-use Sop\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
-use Sop\X509\AttributeCertificate\Attribute\GroupAttributeValue;
-use Sop\X509\AttributeCertificate\Attribute\IetfAttrValue;
-use Sop\X509\AttributeCertificate\Attribute\RoleAttributeValue;
-use Sop\X509\AttributeCertificate\Attributes;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\AccessIdentityAttributeValue;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\GroupAttributeValue;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\IetfAttrValue;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\RoleAttributeValue;
+use Webmasterskaya\X509\AttributeCertificate\Attributes;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group ac

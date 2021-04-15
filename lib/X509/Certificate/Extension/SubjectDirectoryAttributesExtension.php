@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension;
+namespace Webmasterskaya\X509\Certificate\Extension;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\UnspecifiedType;

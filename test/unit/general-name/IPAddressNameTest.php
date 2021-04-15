@@ -5,8 +5,8 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\OctetString;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\IPAddress;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\IPAddress;
 
 /**
  * @group general-name

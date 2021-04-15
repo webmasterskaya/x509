@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Attribute;
+namespace Webmasterskaya\X509\AttributeCertificate\Attribute;
 
 /**
  * Implements value for 'Charging Identity' attribute.

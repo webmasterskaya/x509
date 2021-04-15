@@ -4,26 +4,26 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\CryptoBridge\Crypto;
+use Webmasterskaya\CryptoBridge\Crypto;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\CryptoTypes\Signature\Signature;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Feature\SignatureAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\GenericAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA256WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\Signature\Signature;
 use Sop\X501\ASN1\Name;
-use Sop\X509\AttributeCertificate\AttCertIssuer;
-use Sop\X509\AttributeCertificate\AttCertValidityPeriod;
-use Sop\X509\AttributeCertificate\Attribute\RoleAttributeValue;
-use Sop\X509\AttributeCertificate\AttributeCertificate;
-use Sop\X509\AttributeCertificate\AttributeCertificateInfo;
-use Sop\X509\AttributeCertificate\Attributes;
-use Sop\X509\AttributeCertificate\Holder;
-use Sop\X509\AttributeCertificate\IssuerSerial;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
+use Webmasterskaya\X509\AttributeCertificate\AttCertValidityPeriod;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\RoleAttributeValue;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificate;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificateInfo;
+use Webmasterskaya\X509\AttributeCertificate\Attributes;
+use Webmasterskaya\X509\AttributeCertificate\Holder;
+use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group ac

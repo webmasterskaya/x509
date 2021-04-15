@@ -5,11 +5,11 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\NullType;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\X509\Certificate\Extension\Target\Target;
-use Sop\X509\Certificate\Extension\Target\TargetGroup;
-use Sop\X509\Certificate\Extension\Target\TargetName;
-use Sop\X509\GeneralName\DNSName;
-use Sop\X509\GeneralName\RFC822Name;
+use Webmasterskaya\X509\Certificate\Extension\Target\Target;
+use Webmasterskaya\X509\Certificate\Extension\Target\TargetGroup;
+use Webmasterskaya\X509\Certificate\Extension\Target\TargetName;
+use Webmasterskaya\X509\GeneralName\DNSName;
+use Webmasterskaya\X509\GeneralName\RFC822Name;
 
 /**
  * @group certificate

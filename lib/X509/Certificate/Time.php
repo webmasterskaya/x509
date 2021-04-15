@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate;
+namespace Webmasterskaya\X509\Certificate;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Primitive\GeneralizedTime;
 use Sop\ASN1\Type\Primitive\UTCTime;
 use Sop\ASN1\Type\TimeType;
-use Sop\X509\Feature\DateTimeHelper;
+use Webmasterskaya\X509\Feature\DateTimeHelper;
 
 /**
  * Implements *Time* ASN.1 type.

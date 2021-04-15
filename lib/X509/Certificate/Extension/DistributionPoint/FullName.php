@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\DistributionPoint;
+namespace Webmasterskaya\X509\Certificate\Extension\DistributionPoint;
 
 use Sop\ASN1\Element;
-use Sop\X509\GeneralName\GeneralNames;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * Implements 'fullName' ASN.1 CHOICE type of *DistributionPointName*

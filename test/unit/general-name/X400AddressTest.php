@@ -8,8 +8,8 @@ use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
 use Sop\ASN1\Type\Tagged\ImplicitTagging;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\X400Address;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\X400Address;
 
 /**
  * @group general-name

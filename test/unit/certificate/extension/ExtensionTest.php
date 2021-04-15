@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\NullType;
-use Sop\X509\Certificate\Extension\BasicConstraintsExtension;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\UnknownExtension;
+use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\UnknownExtension;
 
 /**
  * @group certificate

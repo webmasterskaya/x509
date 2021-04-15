@@ -6,17 +6,17 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Extension\SubjectAlternativeNameExtension;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\CertificationRequest\Attribute\ExtensionRequestValue;
-use Sop\X509\CertificationRequest\Attributes;
-use Sop\X509\CertificationRequest\CertificationRequest;
-use Sop\X509\CertificationRequest\CertificationRequestInfo;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Extension\SubjectAlternativeNameExtension;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
+use Webmasterskaya\X509\CertificationRequest\Attributes;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequest;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequestInfo;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group csr

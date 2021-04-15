@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\DistributionPoint;
+namespace Webmasterskaya\X509\Certificate\Extension\DistributionPoint;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Tagged\ExplicitlyTaggedType;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * Implements *DistributionPoint* ASN.1 type used by 'CRL Distribution Points'

@@ -7,11 +7,11 @@ use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\X501\ASN1\AttributeType;
 use Sop\X501\ASN1\AttributeValue\AttributeValue;
 use Sop\X501\MatchingRule\MatchingRule;
-use Sop\X509\AttributeCertificate\Attribute\RoleAttributeValue;
-use Sop\X509\AttributeCertificate\Attributes;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\AttributeCertificate\Attribute\RoleAttributeValue;
+use Webmasterskaya\X509\AttributeCertificate\Attributes;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group ac

@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\NameConstraints\GeneralSubtrees;
-use Sop\X509\Certificate\Extension\NameConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraints\GeneralSubtrees;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraintsExtension;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 

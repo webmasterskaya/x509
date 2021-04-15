@@ -5,22 +5,22 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
 use Sop\CryptoEncoding\PEMBundle;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA256AlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X509\AttributeCertificate\AttCertIssuer;
-use Sop\X509\AttributeCertificate\AttCertValidityPeriod;
-use Sop\X509\AttributeCertificate\AttributeCertificateInfo;
-use Sop\X509\AttributeCertificate\Attributes;
-use Sop\X509\AttributeCertificate\Holder;
-use Sop\X509\AttributeCertificate\IssuerSerial;
-use Sop\X509\AttributeCertificate\Validation\ACValidationConfig;
-use Sop\X509\AttributeCertificate\Validation\ACValidator;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\CertificateBundle;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\Exception\X509ValidationException;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\ECDSAWithSHA256AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
+use Webmasterskaya\X509\AttributeCertificate\AttCertValidityPeriod;
+use Webmasterskaya\X509\AttributeCertificate\AttributeCertificateInfo;
+use Webmasterskaya\X509\AttributeCertificate\Attributes;
+use Webmasterskaya\X509\AttributeCertificate\Holder;
+use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
+use Webmasterskaya\X509\AttributeCertificate\Validation\ACValidationConfig;
+use Webmasterskaya\X509\AttributeCertificate\Validation\ACValidator;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\CertificateBundle;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\Exception\X509ValidationException;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group ac-validation

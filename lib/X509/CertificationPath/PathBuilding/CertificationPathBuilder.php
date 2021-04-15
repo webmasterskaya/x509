@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\PathBuilding;
+namespace Webmasterskaya\X509\CertificationPath\PathBuilding;
 
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\CertificateBundle;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\Exception\PathBuildingException;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\CertificateBundle;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\Exception\PathBuildingException;
 
 /**
  * Class for resolving certification paths.

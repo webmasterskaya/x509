@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate;
+namespace Webmasterskaya\X509\AttributeCertificate;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\UnspecifiedType;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * Base class implementing *AttCertIssuer* ASN.1 CHOICE type.

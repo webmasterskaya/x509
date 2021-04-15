@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\NameConstraints;
+namespace Webmasterskaya\X509\Certificate\Extension\NameConstraints;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**
  * Implements *GeneralSubtree* ASN.1 type used by 'Name Constraints'

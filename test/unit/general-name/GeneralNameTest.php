@@ -6,9 +6,9 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Primitive\NullType;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X509\GeneralName\DNSName;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\GeneralName\DNSName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group general-name

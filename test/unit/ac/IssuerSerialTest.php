@@ -5,10 +5,10 @@ declare(strict_types = 1);
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\BitString;
-use Sop\X509\AttributeCertificate\IssuerSerial;
-use Sop\X509\Certificate\UniqueIdentifier;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
+use Webmasterskaya\X509\Certificate\UniqueIdentifier;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group ac

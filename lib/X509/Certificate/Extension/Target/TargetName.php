@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension\Target;
+namespace Webmasterskaya\X509\Certificate\Extension\Target;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Tagged\ExplicitlyTaggedType;
 use Sop\ASN1\Type\TaggedType;
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**
  * Implements 'targetName' CHOICE of the *Target* ASN.1 type.

@@ -7,7 +7,7 @@ use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\NullType;
 use Sop\ASN1\Type\Primitive\ObjectIdentifier;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
 
 /**
  * @group certificate

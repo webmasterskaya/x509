@@ -2,15 +2,15 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate;
+namespace Webmasterskaya\X509\AttributeCertificate;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\Integer;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\UniqueIdentifier;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\UniqueIdentifier;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * Implements *IssuerSerial* ASN.1 type.

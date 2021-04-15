@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\Exception;
+namespace Webmasterskaya\X509\CertificationPath\Exception;
 
 /**
  * Exception thrown on certification path building errors.

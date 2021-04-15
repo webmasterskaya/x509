@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension;
+namespace Webmasterskaya\X509\Certificate\Extension;
 
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
 
 /**
  * Implements 'Freshest CRL' certificate extension.

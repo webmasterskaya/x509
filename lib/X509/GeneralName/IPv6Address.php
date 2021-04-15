@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\GeneralName;
+namespace Webmasterskaya\X509\GeneralName;
 
 class IPv6Address extends IPAddress
 {

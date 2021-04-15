@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationRequest\Attribute;
+namespace Webmasterskaya\X509\CertificationRequest\Attribute;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\UnspecifiedType;
 use Sop\X501\ASN1\AttributeValue\AttributeValue;
 use Sop\X501\MatchingRule\BinaryMatch;
 use Sop\X501\MatchingRule\MatchingRule;
-use Sop\X509\Certificate\Extensions;
+use Webmasterskaya\X509\Certificate\Extensions;
 
 /**
  * Implements value for 'Extension request' attribute.

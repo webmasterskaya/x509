@@ -7,9 +7,9 @@ use Sop\ASN1\Type\Constructed\Set;
 use Sop\X501\ASN1\Attribute;
 use Sop\X501\ASN1\AttributeType;
 use Sop\X501\ASN1\AttributeValue\CommonNameValue;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\CertificationRequest\Attribute\ExtensionRequestValue;
-use Sop\X509\CertificationRequest\Attributes;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\CertificationRequest\Attribute\ExtensionRequestValue;
+use Webmasterskaya\X509\CertificationRequest\Attributes;
 
 /**
  * @group csr

@@ -8,15 +8,15 @@
 declare(strict_types = 1);
 
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Hash\SHA512AlgorithmIdentifier;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SignatureAlgorithmIdentifierFactory;
-use Sop\CryptoTypes\Asymmetric\PrivateKeyInfo;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\BasicConstraintsExtension;
-use Sop\X509\Certificate\Extension\KeyUsageExtension;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\Certificate\Validity;
-use Sop\X509\CertificationRequest\CertificationRequest;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Hash\SHA512AlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SignatureAlgorithmIdentifierFactory;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKeyInfo;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\KeyUsageExtension;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\Certificate\Validity;
+use Webmasterskaya\X509\CertificationRequest\CertificationRequest;
 
 require dirname(__DIR__) . '/vendor/autoload.php';
 

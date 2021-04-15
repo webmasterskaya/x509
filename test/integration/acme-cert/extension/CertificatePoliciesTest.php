@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\CertificatePoliciesExtension;
-use Sop\X509\Certificate\Extension\CertificatePolicy\CPSQualifier;
-use Sop\X509\Certificate\Extension\CertificatePolicy\NoticeReference;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
-use Sop\X509\Certificate\Extension\CertificatePolicy\UserNoticeQualifier;
-use Sop\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePoliciesExtension;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\CPSQualifier;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\NoticeReference;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyQualifierInfo;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\UserNoticeQualifier;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 

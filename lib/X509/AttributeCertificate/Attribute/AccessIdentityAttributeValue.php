@@ -2,9 +2,9 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate\Attribute;
+namespace Webmasterskaya\X509\AttributeCertificate\Attribute;
 
-use Sop\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\GeneralName;
 
 /**
  * Implements value for 'Access Identity' attribute.

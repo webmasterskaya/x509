@@ -8,7 +8,7 @@ use Sop\ASN1\Type\TaggedType;
 use Sop\X501\ASN1\AttributeTypeAndValue;
 use Sop\X501\ASN1\AttributeValue\CommonNameValue;
 use Sop\X501\ASN1\RDN;
-use Sop\X509\Certificate\Extension\DistributionPoint\RelativeName;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\RelativeName;
 
 /**
  * @group certificate

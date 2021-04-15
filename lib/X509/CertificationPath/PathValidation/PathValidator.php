@@ -2,13 +2,13 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\CertificationPath\PathValidation;
+namespace Webmasterskaya\X509\CertificationPath\PathValidation;
 
-use Sop\CryptoBridge\Crypto;
-use Sop\X509\Certificate\Certificate;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\CertificationPath\Exception\PathValidationException;
+use Webmasterskaya\CryptoBridge\Crypto;
+use Webmasterskaya\X509\Certificate\Certificate;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\CertificationPath\Exception\PathValidationException;
 
 /**
  * Implements certification path validation.

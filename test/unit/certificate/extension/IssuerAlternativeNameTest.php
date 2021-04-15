@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\IssuerAlternativeNameExtension;
-use Sop\X509\Certificate\Extensions;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\IssuerAlternativeNameExtension;
+use Webmasterskaya\X509\Certificate\Extensions;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group certificate

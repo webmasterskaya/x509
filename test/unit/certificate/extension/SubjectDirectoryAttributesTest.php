@@ -10,8 +10,8 @@ use Sop\X501\ASN1\Attribute;
 use Sop\X501\ASN1\AttributeType;
 use Sop\X501\ASN1\AttributeValue\CommonNameValue;
 use Sop\X501\ASN1\AttributeValue\DescriptionValue;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\SubjectDirectoryAttributesExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\SubjectDirectoryAttributesExtension;
 
 /**
  * @group certificate

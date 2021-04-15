@@ -2,24 +2,24 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate;
+namespace Webmasterskaya\X509\Certificate;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
-use Sop\X509\Certificate\Extension\BasicConstraintsExtension;
-use Sop\X509\Certificate\Extension\CertificatePoliciesExtension;
-use Sop\X509\Certificate\Extension\CRLDistributionPointsExtension;
-use Sop\X509\Certificate\Extension\ExtendedKeyUsageExtension;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\InhibitAnyPolicyExtension;
-use Sop\X509\Certificate\Extension\IssuerAlternativeNameExtension;
-use Sop\X509\Certificate\Extension\KeyUsageExtension;
-use Sop\X509\Certificate\Extension\NameConstraintsExtension;
-use Sop\X509\Certificate\Extension\PolicyConstraintsExtension;
-use Sop\X509\Certificate\Extension\PolicyMappingsExtension;
-use Sop\X509\Certificate\Extension\SubjectAlternativeNameExtension;
-use Sop\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
+use Webmasterskaya\X509\Certificate\Extension\AuthorityKeyIdentifierExtension;
+use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePoliciesExtension;
+use Webmasterskaya\X509\Certificate\Extension\CRLDistributionPointsExtension;
+use Webmasterskaya\X509\Certificate\Extension\ExtendedKeyUsageExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\InhibitAnyPolicyExtension;
+use Webmasterskaya\X509\Certificate\Extension\IssuerAlternativeNameExtension;
+use Webmasterskaya\X509\Certificate\Extension\KeyUsageExtension;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\PolicyConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\PolicyMappingsExtension;
+use Webmasterskaya\X509\Certificate\Extension\SubjectAlternativeNameExtension;
+use Webmasterskaya\X509\Certificate\Extension\SubjectKeyIdentifierExtension;
 
 /**
  * Implements *Extensions* ASN.1 type.

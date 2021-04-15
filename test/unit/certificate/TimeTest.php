@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Primitive\GeneralizedTime;
 use Sop\ASN1\Type\Primitive\UTCTime;
-use Sop\X509\Certificate\Time;
+use Webmasterskaya\X509\Certificate\Time;
 
 /**
  * @group certificate

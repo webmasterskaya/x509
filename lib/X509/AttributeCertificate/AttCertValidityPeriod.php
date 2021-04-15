@@ -2,11 +2,11 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\AttributeCertificate;
+namespace Webmasterskaya\X509\AttributeCertificate;
 
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\GeneralizedTime;
-use Sop\X509\Feature\DateTimeHelper;
+use Webmasterskaya\X509\Feature\DateTimeHelper;
 
 /**
  * Implements *AttCertValidityPeriod* ASN.1 type.

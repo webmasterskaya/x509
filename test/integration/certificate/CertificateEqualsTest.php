@@ -4,9 +4,9 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\Asymmetric\PrivateKey;
-use Sop\CryptoTypes\Asymmetric\PublicKeyInfo;
-use Sop\X509\Certificate\Certificate;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
+use Webmasterskaya\CryptoTypes\Asymmetric\PublicKeyInfo;
+use Webmasterskaya\X509\Certificate\Certificate;
 
 /**
  * @group certificate

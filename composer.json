@@ -1,7 +1,7 @@
 {
-    "name": "sop/x509",
+    "name": "webmasterskaya/x509",
     "description": "A PHP library for X.509 public key certificates, attribute certificates, certification requests and certification path validation.",
-    "homepage": "https://github.com/sop/x509",
+    "homepage": "https://github.com/webmasterskaya/x509",
     "license": "MIT",
     "type": "library",
     "keywords": [
@@ -18,6 +18,11 @@
             "name": "Joni Eskelinen",
             "email": "jonieske@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Artem Vasilev",
+            "email": "kern.usr@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
@@ -25,8 +30,8 @@
         "ext-gmp": "*",
         "sop/asn1": "^4.0.0",
         "sop/x501": "^0.6.1",
-        "sop/crypto-types": "^0.3.0",
-        "sop/crypto-bridge": "^0.3.1",
+        "webmasterskaya/crypto-types": "^0.3.1",
+        "webmasterskaya/crypto-bridge": "^0.3.1",
         "sop/crypto-encoding": "^0.3.0"
     },
     "require-dev": {
@@ -34,7 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sop\\X509\\": "lib/X509/"
+            "Webmasterskaya\\X509\\": "lib/X509/"
         }
     }
 }

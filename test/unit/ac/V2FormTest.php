@@ -7,13 +7,13 @@ use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\Primitive\BitString;
 use Sop\ASN1\Type\Tagged\ImplicitlyTaggedType;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
-use Sop\X509\AttributeCertificate\AttCertIssuer;
-use Sop\X509\AttributeCertificate\IssuerSerial;
-use Sop\X509\AttributeCertificate\ObjectDigestInfo;
-use Sop\X509\AttributeCertificate\V2Form;
-use Sop\X509\GeneralName\DirectoryName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\X509\AttributeCertificate\AttCertIssuer;
+use Webmasterskaya\X509\AttributeCertificate\IssuerSerial;
+use Webmasterskaya\X509\AttributeCertificate\ObjectDigestInfo;
+use Webmasterskaya\X509\AttributeCertificate\V2Form;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 /**
  * @group ac

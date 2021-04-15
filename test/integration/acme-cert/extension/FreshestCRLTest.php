@@ -2,14 +2,14 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
-use Sop\X509\Certificate\Extension\DistributionPoint\DistributionPointName;
-use Sop\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
-use Sop\X509\Certificate\Extension\DistributionPoint\RelativeName;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\FreshestCRLExtension;
-use Sop\X509\GeneralName\GeneralName;
-use Sop\X509\GeneralName\GeneralNames;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPoint;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\DistributionPointName;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\ReasonFlags;
+use Webmasterskaya\X509\Certificate\Extension\DistributionPoint\RelativeName;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\FreshestCRLExtension;
+use Webmasterskaya\X509\GeneralName\GeneralName;
+use Webmasterskaya\X509\GeneralName\GeneralNames;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 

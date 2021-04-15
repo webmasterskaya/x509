@@ -2,12 +2,12 @@
 
 declare(strict_types = 1);
 
-namespace Sop\X509\Certificate\Extension;
+namespace Webmasterskaya\X509\Certificate\Extension;
 
 use Sop\ASN1\Element;
 use Sop\ASN1\Type\Constructed\Sequence;
 use Sop\ASN1\Type\UnspecifiedType;
-use Sop\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
+use Webmasterskaya\X509\Certificate\Extension\CertificatePolicy\PolicyInformation;
 
 /**
  * Implements 'Certificate Policies' certificate extension.

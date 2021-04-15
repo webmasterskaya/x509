@@ -4,10 +4,10 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\ASN1\Type\Constructed\Sequence;
-use Sop\X509\Certificate\Extension\AccessDescription\AuthorityAccessDescription;
-use Sop\X509\Certificate\Extension\AuthorityInformationAccessExtension;
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\GeneralName\UniformResourceIdentifier;
+use Webmasterskaya\X509\Certificate\Extension\AccessDescription\AuthorityAccessDescription;
+use Webmasterskaya\X509\Certificate\Extension\AuthorityInformationAccessExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\GeneralName\UniformResourceIdentifier;
 
 /**
  * @group certificate

@@ -4,19 +4,19 @@ declare(strict_types = 1);
 
 use PHPUnit\Framework\TestCase;
 use Sop\CryptoEncoding\PEM;
-use Sop\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
-use Sop\CryptoTypes\Asymmetric\PrivateKey;
+use Webmasterskaya\CryptoTypes\AlgorithmIdentifier\Signature\SHA1WithRSAEncryptionAlgorithmIdentifier;
+use Webmasterskaya\CryptoTypes\Asymmetric\PrivateKey;
 use Sop\X501\ASN1\Name;
-use Sop\X509\Certificate\Extension\BasicConstraintsExtension;
-use Sop\X509\Certificate\Extension\NameConstraints\GeneralSubtree;
-use Sop\X509\Certificate\Extension\NameConstraints\GeneralSubtrees;
-use Sop\X509\Certificate\Extension\NameConstraintsExtension;
-use Sop\X509\Certificate\TBSCertificate;
-use Sop\X509\Certificate\Validity;
-use Sop\X509\CertificationPath\CertificationPath;
-use Sop\X509\CertificationPath\PathValidation\PathValidationConfig;
-use Sop\X509\CertificationPath\PathValidation\PathValidationResult;
-use Sop\X509\GeneralName\DirectoryName;
+use Webmasterskaya\X509\Certificate\Extension\BasicConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraints\GeneralSubtree;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraints\GeneralSubtrees;
+use Webmasterskaya\X509\Certificate\Extension\NameConstraintsExtension;
+use Webmasterskaya\X509\Certificate\TBSCertificate;
+use Webmasterskaya\X509\Certificate\Validity;
+use Webmasterskaya\X509\CertificationPath\CertificationPath;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationConfig;
+use Webmasterskaya\X509\CertificationPath\PathValidation\PathValidationResult;
+use Webmasterskaya\X509\GeneralName\DirectoryName;
 
 /**
  * Covers handling of name constraints extension.

@@ -2,8 +2,8 @@
 
 declare(strict_types = 1);
 
-use Sop\X509\Certificate\Extension\Extension;
-use Sop\X509\Certificate\Extension\PolicyConstraintsExtension;
+use Webmasterskaya\X509\Certificate\Extension\Extension;
+use Webmasterskaya\X509\Certificate\Extension\PolicyConstraintsExtension;
 
 require_once __DIR__ . '/RefExtTestHelper.php';
 
